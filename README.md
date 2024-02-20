@@ -1,5 +1,11 @@
 # X Education Lead Scoring Model
-
+___________________________________
+### Group Members
+___________________________________
+- Chinmaya Prasad B D
+- Kajal Vidhate
+- Hemanth Gopal
+_____________________________________
 This repository contains the implementation of a lead scoring model for X Education, an online education company. The goal of this project is to identify potential leads that are most likely to convert into paying customers, thereby improving the lead conversion rate.
 
 ## Problem Statement
@@ -29,17 +35,21 @@ The steps involved in the project are as follows:
    - Tuning hyperparameters to optimize model performance.
    - Model Diagnosis Using Probability Calibration, ROC AUC Curve, Precision-Recall Curve
 
-4. **Lead Scoring**:
-   - Assigning lead scores based on the probability of conversion predicted by the model. 
+4. **Model Evaluation**:
+   - Assessing the performance of the trained models using cross-validation and validation datasets.
+   - Analyzing metrics such as accuracy, precision, sensitivity, and specificity to gauge model effectiveness.   
+6. **Model Interpretation:**
+   - Interpreting the coefficients of the logistic regression model to understand the impact of features on lead conversion.
+   - Identifying key predictors of conversion and providing actionable insights for lead prioritization.
 
-5. **Deployment**:
-   - Integrating the lead scoring model into X Education's sales process.
-   - Providing recommendations on lead prioritization and communication strategies.
+7. **Lead Scoring**:
+   - Assigning lead scores based on the probability of conversion predicted by the model.
+     
 
 ## Files Description
 - `X_Education_Lead_Scoring.ipynb`: Jupyter Notebook containing the code for data preprocessing, feature engineering, model building, and lead scoring.
-- `data/Leads.csv.csv`: CSV file containing the dataset with past leads' attributes and conversion outcomes.
-- `data/Leads Data Dictionary.xlsx`: Excel file providing a data dictionary explaining the attributes in the dataset.
+- `Leads.csv.csv`: CSV file containing the dataset with past leads' attributes and conversion outcomes.
+- `Leads Data Dictionary.xlsx`: Excel file providing a data dictionary explaining the attributes in the dataset.
 
 ## Getting Started
 To run the lead scoring model:
@@ -60,8 +70,8 @@ To run the lead scoring model:
 ## Acknowledgments
 This project is part of a case study provided by [Upgrad & IIITB college](https://www.upgrad.com/) for educational purposes.
 
-## Group of Authors
-Chinmaya Prasad B D - LinkedIn Profile: (https://www.linkedin.com/in/chinmaya-prasad-b-d-71721371/)
-Kajal Vidhate       - LinkedIn Profile: (https://www.linkedin.com/in/kajal-vidhate-a6513b279/)
+##Authors
+- Chinmaya Prasad B D - LinkedIn Profile: (https://www.linkedin.com/in/chinmaya-prasad-b-d-71721371/)
+- Kajal Vidhate       - LinkedIn Profile: (https://www.linkedin.com/in/kajal-vidhate-a6513b279/)
 
 Feel free to reach out for any questions or suggestions!
